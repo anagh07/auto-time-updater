@@ -1,0 +1,15 @@
+{
+  "name": "windows-startup-time-updater",
+  "version": "1.0.0",
+  "description": "Script that fetches and sets the system time at startup.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install -g node-windows",
+    "install": "npm link node-windows && npm install",
+    "start": "node index.js install",
+    "uninstall": "node index.js uninstall",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anagh Mehran",
+  "license": "MIT"
+}
