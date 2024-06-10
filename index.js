@@ -3,7 +3,7 @@ const path = require('node:path');
 
 // Name of the script file
 const scriptName = 'autoTimeUpdater.js';
-// Run mode
+// Run mode "install" "uninstall"
 const runMode = process.argv[2];
 
 const svc = new Service({
